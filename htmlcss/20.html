@@ -1,0 +1,77 @@
+<html> 
+    <head> 
+        <title>Belajar form</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet2.css"> 
+    </head> 
+<body> 
+<form action="" name="" >
+  <table width="100%" border="0">
+    <tr> 
+      <td width="86">Nama</td>
+      <td width="184"><input type="text" name="nama" id="nama" size="25" maxlength="20"> 
+      </td>
+    </tr>
+    <tr> 
+      <td>Alamat</td>
+      <td>
+          <textarea name="alamat" cols="25" rows="3"></textarea>
+      </td>
+    </tr>
+    <tr> 
+      <td>Email</td>
+      <td>
+          <input type="text" name="email" id="email" size="25" maxlength="20">
+      </td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>
+            <select name="jk" id="jk">
+                <option>Jenis Kelamin</option>
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Golongan Darah</td>
+        <td>
+            <input type="radio" name="goldar" value="A">A
+            <input type="radio" name="goldar" value="AB">AB
+            <input type="radio" name="goldar" value="B">B
+            <input type="radio" name="goldar" value="O">O
+        </td>
+    </tr>
+    <tr>
+        <td>Hobi</td>
+        <td>
+            <input type="checkbox" name="hobi1" id="hobi1" value="Badminton">Badminton
+            <input type="checkbox" name="hobi2" id="hobi2" value="Sepeda">Bersepeda
+            <input type="checkbox" name="hobi3" id="hobi3" value="Lari">Berlari
+            <input type="checkbox" name="hobi4" id="hobi4" value="Renang">Berenang
+            <input type="checkbox" name="hobi5" id="hobi5" value="Pingpong">Pingpong
+        </td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td>
+            <input type="password" name="password" id="password" size="25" maxlength="25"> 
+        </td>
+    </tr>
+    <tr>
+        <td>Upload File</td>
+        <td>
+            <input type="file" name="upload" id="upload"> 
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="submit" name="simpan" id="simpan">
+            <input type="reset" name="reset" id="reset"> 
+        </td>
+    </tr>
+  </table> 
+</form>
+</body>
+</html>
